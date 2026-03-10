@@ -96,5 +96,6 @@ int main()
         } // switch ending
 
     } // While ending
+
+    return 0;
 }
-git
