@@ -48,8 +48,16 @@ void division()
     printf("Enter the second number: ");
     scanf("%f", &b);
 
-    system("cls");
-    printf("Division Result: %.3f\n", a / b);
+    if (b == 0)
+    {
+        system("cls");
+        printf("Error: Division by zero is not allowed.\n");
+    }
+    else
+    {
+        system("cls");
+        printf("Division Result: %.3f\n", a / b);
+    }
 }
 
 int main()
