@@ -54,16 +54,15 @@ void division()
             printf("Error: Division by zero is not allowed!\n");
             printf("Please try again.\n\n");
         }
-    } while (b == 0.0f);   // zero হলে আবার input নেবে
+    } while (b == 0.0f); 
 
     system("cls");
     printf("Division Result: %.3f\n", a / b);
     
     printf("\nPress Enter to continue...");
-    getchar();    // scanf এর পরে leftover newline ক্লিয়ার করার জন্য
-    getchar();    // user যেন Enter চাপতে পারে
+    getchar();   
+    getchar();   
 }
-
 int main()
 {
 
